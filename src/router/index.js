@@ -11,6 +11,15 @@ import SotaNiklas from '../components/SotaNiklas.vue';
 import SotaTiago from '../components/SotaTiago.vue';
 import SotaObsidian from '../components/SotaObsidian';
 import SotaImplic from '../components/SotaImplic.vue';
+import SotaArti from '../components/SotaArti.vue';
+import SotaEthics from '../components/SotaEthics.vue';
+import MethIntro from '../components/MethIntro.vue';
+import MethInterview from '../components/MethInterview.vue';
+import MethFindings from '../components/MethFindings.vue';
+import MethPrototype1 from '../components/MethPrototype1.vue';
+
+
+
 
 
 
@@ -27,6 +36,12 @@ const routes = [
   { path: '/chapter10', component: SotaTiago },
   { path: '/chapter11', component: SotaObsidian },
   { path: '/chapter12', component: SotaImplic },
+  { path: '/chapter13', component: SotaArti },
+  { path: '/chapter14', component: SotaEthics },
+  { path: '/chapter15', component: MethIntro },
+  { path: '/chapter16', component: MethInterview },
+  { path: '/chapter17', component: MethFindings },
+  { path: '/chapter18', component: MethPrototype1 },
   { path: '/:catchAll(.*)', redirect: '/chapter1' } // Redirect to Chapter 1 by default
 ];
 
